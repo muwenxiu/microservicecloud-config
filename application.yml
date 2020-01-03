@@ -3,6 +3,7 @@
   active:
   - dev
 person:
+ type: all
  name: lzl
  age: 10
 ---
@@ -10,9 +11,13 @@ spring:
  profiles: dev #开发环境
  application:
   name: microservicecloud-config-lzl-dev
-  
+person:
+ type: dev
+
 ---
 spring:
  profiles: test #测试环境
  application:
   name: microservicecloud-config-lzl-test
+person:
+ type: test
