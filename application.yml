@@ -2,6 +2,9 @@
  profiles:
   active:
   - dev
+person:
+ name: lzl
+ age: 10
 ---
 spring:
  profiles: dev #开发环境
